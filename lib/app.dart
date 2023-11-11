@@ -5,10 +5,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-void main() {
-  runApp(const MyApp());
-}
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -23,7 +19,6 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             title: 'E-com Pro',
             builder: EasyLoading.init(),
-
             themeMode: ThemeMode.system,
             theme: CAppTheme.lightTheme,
             ////////////dark
